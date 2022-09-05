@@ -9,12 +9,12 @@ class NoPage extends React.Component {
             <div>
                 <h2>La pagina non è stata trovata</h2>
 
-                {/*
+                {
                 <Bottone
                     testo='Torna alla home'
-                    linkBottone='/home'>
+                    /* linkBottone='/home' */>
                 </Bottone>
-                */}
+                }
             </div>
         );
     }
