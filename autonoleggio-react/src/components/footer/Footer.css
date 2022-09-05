@@ -1,0 +1,30 @@
+.footer {
+    background: rgba(214, 99, 4, 0.795);
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    padding-bottom: 11px;
+    width: 100%;
+    display: block;
+}
+
+#contact-left {
+    float: left;
+    margin-top: 11px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+#contact-right {
+    float: right;
+    margin-right: 15px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.footer-logo {
+    margin-left: 10px;
+    float: left;
+    width: 30px;
+    height: 30px;
+}
