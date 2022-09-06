@@ -13,7 +13,7 @@ class Footer extends React.Component {
                 <div>
                     <h2 style={{fontWeight: "normal", margin:"0"}}>
                         <a href="mailto:noleggiova@gmail.com">
-                            <span id="contact-left">noleggiovà@gmail.com</span></a>
+                            <span id="contact-left">noleggiova@gmail.com</span></a>
                     </h2>
                     <h2 style={{fontWeight: "normal", margin:"0"}}>
                         <span id="contact-right">061234567</span>
