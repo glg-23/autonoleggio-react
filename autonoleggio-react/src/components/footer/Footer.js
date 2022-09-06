@@ -11,16 +11,14 @@ class Footer extends React.Component {
         return (
             <div className='footer'>
                 <div>
-                    <h2 style={{fontWeight: "normal"}}>
+                    <h2 style={{fontWeight: "normal", margin:"0"}}>
                         <a href="mailto:noleggiova@gmail.com">
                             <span id="contact-left">noleggiovà@gmail.com</span></a>
                     </h2>
-                    <h2 style={{fontWeight: "normal"}}>
+                    <h2 style={{fontWeight: "normal", margin:"0"}}>
                         <span id="contact-right">061234567</span>
                     </h2>
-                </div>
 
-                <div>
                     <a href="https://www.facebook.com/Noleggiov%C3%A0-109539884161383/" target="_blank">
                         <img className="footer-logo logo-left" src={facebook}></img></a>
 
