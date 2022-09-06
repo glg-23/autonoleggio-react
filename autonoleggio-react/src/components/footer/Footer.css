@@ -3,28 +3,36 @@
     position: fixed;
     bottom: 0;
     padding: 10px;
-    padding-bottom: 11px;
+    padding-bottom: 10px;
     width: 100%;
     display: block;
 }
 
 #contact-left {
     float: left;
-    margin-top: 11px;
+    margin-top: 10px;
     margin-left: 10px;
     color: #fff;
 }
 
 #contact-right {
     float: right;
-    margin-right: 15px;
+    margin-top: 10px;
+    margin-right: 30px;
     color: #fff;
-    font-size: 15px;
 }
 
 .footer-logo {
-    margin-left: 10px;
-    float: left;
     width: 30px;
     height: 30px;
+}
+
+.logo-left {
+    margin-left: 10px;
+    float: left;
+}
+
+.logo-right {
+    margin-right: 10px;
+    float: right;
 }
