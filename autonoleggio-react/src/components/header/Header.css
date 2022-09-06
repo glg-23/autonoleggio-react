@@ -12,6 +12,7 @@
      float: left;
      display: inline-flex;
      margin-left: 20px;
+     text-decoration: none;
  }
 
  .elem-right {
