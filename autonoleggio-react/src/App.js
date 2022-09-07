@@ -1,15 +1,15 @@
 import './App.css';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
-import Home from './components/home/Home';
+import Router from './components/router/Router';
 
 function App() {
 
   return (
     <div className="App">
-        <Header></Header>
-        <Home></Home>
-        <Footer></Footer>
+      <Header></Header>
+      <Router></Router>
+      <Footer></Footer>
     </div>
   );
 }
