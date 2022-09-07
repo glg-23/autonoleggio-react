@@ -1,7 +1,7 @@
 import React from 'react';
 import './NoPage.css';
 import Bottone from '../bottone/Bottone';
-import logoNoPage from '../../media/noPage.png';
+import logoNoPage from '../../media/icon/noPage.png';
 
 class NoPage extends React.Component {
 

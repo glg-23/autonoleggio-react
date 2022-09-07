@@ -3,8 +3,8 @@ import './Header.css';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import logo from '../../media/logoNoleggiova-black.png';
-import logoHover from '../../media/logoNoleggiova-orange.png';
+import logo from '../../media/logo/logoNoleggiova-black.png';
+import logoHover from '../../media/logo/logoNoleggiova-orange.png';
 
 
 class Header extends React.Component {

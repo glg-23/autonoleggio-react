@@ -1,9 +1,9 @@
 import React from 'react';
 import './Footer.css';
-import facebook from '../../media/facebook.ico';
-import instagram from '../../media/instagram.ico';
-import twitter from '../../media/twitter.ico';
-import telefono from '../../media/telefono.png';
+import facebook from '../../media/social/facebook.ico';
+import instagram from '../../media/social/instagram.ico';
+import twitter from '../../media/social/twitter.ico';
+import telefono from '../../media/social/telefono.png';
 
 class Footer extends React.Component {
 

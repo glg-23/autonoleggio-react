@@ -1,7 +1,7 @@
 import React from 'react';
 import './InCostruzione.css';
 import Bottone from '../bottone/Bottone';
-import logoCostruzione from '../../media/inCostruzione.png';
+import logoCostruzione from '../../media/icon/inCostruzione.png';
 
 class InCostruzione extends React.Component {
 
