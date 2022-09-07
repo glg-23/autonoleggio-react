@@ -12,6 +12,7 @@ class Router extends React.Component {
             <BrowserRouter>
                 <Routes>
                     <Route index path="home" element={<Home />} />
+                    <Route index path="" element={<Home />} />
 
                     <Route path="informazioni" element={<Info />} />
 
