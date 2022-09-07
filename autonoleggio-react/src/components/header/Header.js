@@ -14,7 +14,7 @@ class Header extends React.Component {
             <div className='header'>
                 <Navbar>
                     <Container>
-                        <Navbar.Brand href="/home" className='elem-left'>
+                        <Navbar.Brand href="/informazioni" className='elem-left'>
                             <img
                                 className='logo'
                                 src={logo}

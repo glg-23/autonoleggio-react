@@ -1,8 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from '../home/Home';
-import NoPage from '../noPage/NoPage';
+import Info from '../informazioni/Informazioni'
 import InCostruzione from '../inCostruzione/InCostruzione';
+import NoPage from '../noPage/NoPage';
 
 class Router extends React.Component {
 
@@ -11,6 +12,8 @@ class Router extends React.Component {
             <BrowserRouter>
                 <Routes>
                     <Route index path="home" element={<Home />} />
+
+                    <Route path="informazioni" element={<Info />} />
 
                     <Route path="login" element={<InCostruzione />} />
                     <Route path="listaAuto" element={<InCostruzione />} />
