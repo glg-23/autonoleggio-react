@@ -1,15 +1,19 @@
 .containerCostruzione {
     display: flex;
+    height: 100%;
     place-content: center;
+    place-items: center;
 }
 
 .boxCostruzione {
     color: white;
     background: rgba(0, 0, 0, 0.7);
-    margin-top: 200px;
     border-radius: 10px;
-    padding: 3%;
-    width: 25%;
+    padding-top: 5em;
+    padding-bottom: 7em;
+    width: 100%;
+    height: fit-content;
+    align-self: center;
 }
 
 .logoCostruzione {
