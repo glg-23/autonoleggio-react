@@ -1,6 +1,6 @@
 import React from 'react';
 import './Informazioni.css';
-import Bottone from '../bottone/Bottone';
+import InCostruzione from '../inCostruzione/InCostruzione';
 
 class Informazioni extends React.Component {
 
@@ -9,12 +9,8 @@ class Informazioni extends React.Component {
             <div className='info'>
                 <h2 className='titoloInfo'>Informazioni</h2>
 
-                {
-                    <Bottone
-                        testo='Vai alla home'
-                        linkBottone='/home'>
-                    </Bottone>
-                }
+                <InCostruzione>
+                </InCostruzione>
             </div>
         );
     }
