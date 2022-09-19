@@ -1,12 +1,23 @@
-.inCostruzione {
-    margin-top: 200px;
+.containerCostruzione {
+    display: flex;
+    place-content: center;
 }
 
-.logoCostruzione{
+.boxCostruzione {
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    margin-top: 200px;
+    border-radius: 10px;
+    padding: 3%;
+    width: 25%;
+}
+
+.logoCostruzione {
     width: 80px;
 }
 
 .titoloInCostruzione {
     font-size: 3em;
     font-weight: 500;
+    margin-bottom: 1.5em;
 }
