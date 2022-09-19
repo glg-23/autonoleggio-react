@@ -6,8 +6,8 @@ import Info from '../informazioni/Informazioni'
 import ListaAuto from '../listaAuto/ListaAuto'
 import ChiSiamo from '../chiSiamo/ChiSiamo'
 import Contatti from '../contatti/Contatti'
+import Login from '../login/Login'
 
-import InCostruzione from '../inCostruzione/InCostruzione';
 import NoPage from '../noPage/NoPage';
 
 class Router extends React.Component {
@@ -20,7 +20,7 @@ class Router extends React.Component {
                     <Route index path="" element={<Info />} />
                     <Route path="informazioni" element={<Info />} />
 
-                    <Route path="login" element={<InCostruzione />} />
+                    <Route path="login" element={<Login />} />
                     <Route path="listaAuto" element={<ListaAuto />} />
                     <Route path="chiSiamo" element={<ChiSiamo />} />
                     <Route path="contatti" element={<Contatti />} />
